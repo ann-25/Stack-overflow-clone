@@ -1,0 +1,32 @@
+.login-container {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-Container,
+.form-Container form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-Container form button {
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+}
+.verify-btn {
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+  background-color: rgb(41, 168, 141);
+  color: white;
+}
+.verify-btn::after {
+  background-color: rgb(17, 86, 64);
+}

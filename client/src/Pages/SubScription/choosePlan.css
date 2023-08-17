@@ -1,0 +1,35 @@
+.plans-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.plans-list {
+  width: 50%;
+}
+.plan-Details {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.plans-list .plan-Details ul {
+  width: 82%;
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  font-weight: bold;
+  opacity: 90%;
+  padding: 2%;
+}
+.pyament-ul1 {
+  border: 2px solid rgb(182, 169, 169);
+}
+
+.plan-Details .pyament-ul:hover {
+  border-left: 2px solid rgb(229, 140, 45);
+  animation: ease-in 1.5s;
+}
